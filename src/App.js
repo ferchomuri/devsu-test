@@ -1,0 +1,15 @@
+import { RoutesTree } from './routes/RoutesTree';
+import Header from './components/Header/Header';
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <RoutesTree />
+    </div>
+  );
+}
+
+export default App;

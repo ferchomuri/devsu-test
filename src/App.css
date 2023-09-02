@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  /*Full width and height*/
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+  /*Background color*/
+  background-color: #f5f6fa;
+}

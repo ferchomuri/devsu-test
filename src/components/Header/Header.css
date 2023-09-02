@@ -1,0 +1,26 @@
+.main-header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+.img-header {
+  width: 20%;
+  height: 100%;
+}
+
+/*Breakpoint for mobile*/
+@media (max-width: 768px) {
+  .img-header {
+    width: 40%;
+    height: 50%;
+  }
+}
+
+/*Breakpoint for tablet*/
+@media (max-width: 1024px) {
+  .img-header {
+    width: 30%;
+    height: 60%;
+  }
+}

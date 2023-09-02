@@ -1,0 +1,42 @@
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-button {
+  /* padding: 10px 15px; */
+  color: white;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.btn-container-context {
+  border-bottom: 1px solid #ccc;
+}
+
+/*Estilo utlimo item de menu*/
+.btn-container-context:last-child {
+  border-bottom: none;
+}
+
+.menu-item {
+  padding: 5px 10px;
+  cursor: pointer;
+}

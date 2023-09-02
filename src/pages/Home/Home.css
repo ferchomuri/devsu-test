@@ -1,0 +1,10 @@
+.buttons-container {
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 50px 20%;
+}
